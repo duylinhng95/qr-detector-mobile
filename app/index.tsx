@@ -1,5 +1,6 @@
 import Button from "@/components/Button";
 import { Alert, Text, View } from "react-native";
+import Camera from "@/components/CameraView";
 
 export default function Index() {
   return (
@@ -11,6 +12,9 @@ export default function Index() {
           Tailwind CSS!
         </Text>
       </View>
+        <View>
+            <Camera/>
+        </View>
       <Button
         label="Sounds good!"
         onPress={() => {
